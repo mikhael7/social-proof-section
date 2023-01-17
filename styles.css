@@ -126,7 +126,7 @@ main>section.card>div.card-social>div.title>div.group-name {
 }
 
 main>section.card>div.card-social>div.title>div.group-name>h2 {
-  margin: 0;
+  margin: 0.25rem;
   font-size: 15pt;
 }
 
