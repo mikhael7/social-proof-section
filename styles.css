@@ -68,7 +68,7 @@ main>section.header>div.header-container>h1 {
   margin-bottom: 1.5rem;
 }
 
-main>section.header>div.header-container>p {
+main>section.header>div.header-container>h2 {
   color: var(--color-dark-grayish-magenta);
   font-variation-settings: "wght" var(--font-medium);
   margin-bottom: 2rem;
