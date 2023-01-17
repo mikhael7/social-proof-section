@@ -55,7 +55,7 @@ main > section.header {
   text-align: center;
   margin-top: 1.5rem;
 }
-main > section.header > h1 {
+main > section.header > div.header-container > h1 {
   font-size: 2.5em;
   line-height: 0.75em;
   color: var(--color-very-dark-magenta);
@@ -64,23 +64,23 @@ main > section.header > h1 {
   margin-bottom: 1.5rem;
 }
 
-main > section.header > p {
+main > section.header > div.header-container > p {
   color: var(--color-dark-grayish-magenta);
   font-variation-settings: "wght" var(--font-medium);
   margin-bottom: 2rem;
   font-size: 17px;
 }
 
-main > section.header > div.card-star {
+main > section.header > div.stars-container > div.card-star {
   background-color: var(--color-light-grayish-magenta);
   border-radius: 0.5rem;
   padding: 1rem 0;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-main > section.header > div.card-star > div.stars {
+main > section.header > div.stars-container > div.card-star > div.stars {
 }
-main > section.header > div.card-star > p {
+main > section.header > div.stars-container > div.card-star > p {
   font-variation-settings: "wght" var(--font-bold);
   color: var(--color-very-dark-magenta);
   margin-top: 0.5rem;
@@ -123,4 +123,30 @@ main > section > div.card-social > div.title > div.group-name > p:last-child {
 }
 main > section > div.card-social > div.body {
   letter-spacing: 0.05em;
+}
+
+@media (min-width: 40em) {
+  main {
+    margin: 4rem calc(32.5rem / 2);
+  }
+  main > section.header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: start;
+  }
+  main > section.header > div.header-container {
+    max-width: 20rem;
+  }
+  main > section.header > div.stars-container {
+    text-align: center;
+    justify-items: end;
+  }
+  main > section.header > div.stars-container > div.card-star {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    max-width: 25rem;
+  }
 }
