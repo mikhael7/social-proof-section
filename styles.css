@@ -90,7 +90,7 @@ main>section.header>div.stars-container>div.card-star>p {
   margin-bottom: 0;
 }
 
-main>section.card>div.card-social {
+main>article.card>div.card-social {
   background-color: var(--color-very-dark-magenta);
   color: var(--color-white);
   padding: 0 1.5rem 1.5rem 1.5rem;
@@ -101,39 +101,39 @@ main>section.card>div.card-social {
   max-height: 10rem;
 }
 
-main>section.card>div.card-social:first-child {
+main>article.card>div.card-social:first-child {
   margin-top: 1rem;
 }
 
-main>section.card>div.card-social:last-child {
+main>article.card>div.card-social:last-child {
   margin: 0;
 }
 
-main>section.card>div.card-social>div.title {
+main>article.card>div.card-social>div.title {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-main>section.card>div.card-social>div.title>img {
+main>article.card>div.card-social>div.title>img {
   border-radius: 100%;
   max-width: 2rem;
   max-height: 2rem;
 }
 
-main>section.card>div.card-social>div.title>div.group-name {
+main>article.card>div.card-social>div.title>div.group-name {
   width: 100%;
 }
 
-main>section.card>div.card-social>div.title>div.group-name>p {
+main>article.card>div.card-social>div.title>div.group-name>p {
   margin: 0.25rem;
 }
 
-main>section.card>div.card-social>div.title>div.group-name>p:last-child {
+main>article.card>div.card-social>div.title>div.group-name>p:last-child {
   color: var(--color-soft-pink);
 }
 
-main>section.card>div.card-social>div.body {
+main>article.card>div.card-social>div.body {
   letter-spacing: 0.05em;
 }
 
@@ -193,7 +193,7 @@ main>section.card>div.card-social>div.body {
     margin-top: 0
   }
 
-  main>section.card {
+  main>article.card {
     display: grid;
     grid-auto-flow: column;
     gap: 2rem;
@@ -201,31 +201,31 @@ main>section.card>div.card-social>div.body {
     height: 100%;
   }
 
-  main>section.card>div.card-social {
+  main>article.card>div.card-social {
     max-width: 32.5rem;
     padding: 2rem 3rem 3rem 3rem;
     margin-bottom: 0;
   }
 
-  main>section.card>div.card-social:nth-child(2) {
+  main>article.card>div.card-social:nth-child(2) {
     margin-top: 2rem;
   }
 
-  main>section.card>div.card-social:nth-child(3) {
+  main>article.card>div.card-social:nth-child(3) {
     margin-top: 4rem;
   }
 
-  main>section.card>div.card-social:first-child {
+  main>article.card>div.card-social:first-child {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  main>section.card>div.card-social>div.title>img {
+  main>article.card>div.card-social>div.title>img {
     max-width: 3rem;
     max-height: 3rem;
   }
 
-  main>section.card>div.card-social>div.body {
+  main>article.card>div.card-social>div.body {
     margin-top: 1rem;
   }
 }
