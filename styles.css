@@ -90,7 +90,7 @@ main>section.header>div.stars-container>div.card-star>p {
   margin-bottom: 0;
 }
 
-main>article.card>div.card-social {
+main>section.card>div.card-social {
   background-color: var(--color-very-dark-magenta);
   color: var(--color-white);
   padding: 0 1.5rem 1.5rem 1.5rem;
@@ -101,39 +101,44 @@ main>article.card>div.card-social {
   max-height: 10rem;
 }
 
-main>article.card>div.card-social:first-child {
+main>section.card>div.card-social:first-child {
   margin-top: 1rem;
 }
 
-main>article.card>div.card-social:last-child {
+main>section.card>div.card-social:last-child {
   margin: 0;
 }
 
-main>article.card>div.card-social>div.title {
+main>section.card>div.card-social>div.title {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
 
-main>article.card>div.card-social>div.title>img {
+main>section.card>div.card-social>div.title>img {
   border-radius: 100%;
   max-width: 2rem;
   max-height: 2rem;
 }
 
-main>article.card>div.card-social>div.title>div.group-name {
+main>section.card>div.card-social>div.title>div.group-name {
   width: 100%;
 }
 
-main>article.card>div.card-social>div.title>div.group-name>p {
+main>section.card>div.card-social>div.title>div.group-name>h2 {
+  margin: 0;
+  font-size: 15pt;
+}
+
+main>section.card>div.card-social>div.title>div.group-name>p {
   margin: 0.25rem;
 }
 
-main>article.card>div.card-social>div.title>div.group-name>p:last-child {
+main>section.card>div.card-social>div.title>div.group-name>p:last-child {
   color: var(--color-soft-pink);
 }
 
-main>article.card>div.card-social>div.body {
+main>section.card>div.card-social>div.body {
   letter-spacing: 0.05em;
 }
 
@@ -193,7 +198,7 @@ main>article.card>div.card-social>div.body {
     margin-top: 0
   }
 
-  main>article.card {
+  main>section.card {
     display: grid;
     grid-auto-flow: column;
     gap: 2rem;
@@ -201,31 +206,31 @@ main>article.card>div.card-social>div.body {
     height: 100%;
   }
 
-  main>article.card>div.card-social {
+  main>section.card>div.card-social {
     max-width: 32.5rem;
     padding: 2rem 3rem 3rem 3rem;
     margin-bottom: 0;
   }
 
-  main>article.card>div.card-social:nth-child(2) {
+  main>section.card>div.card-social:nth-child(2) {
     margin-top: 2rem;
   }
 
-  main>article.card>div.card-social:nth-child(3) {
+  main>section.card>div.card-social:nth-child(3) {
     margin-top: 4rem;
   }
 
-  main>article.card>div.card-social:first-child {
+  main>section.card>div.card-social:first-child {
     margin-top: 0;
     margin-bottom: 0;
   }
 
-  main>article.card>div.card-social>div.title>img {
+  main>section.card>div.card-social>div.title>img {
     max-width: 3rem;
     max-height: 3rem;
   }
 
-  main>article.card>div.card-social>div.body {
+  main>section.card>div.card-social>div.body {
     margin-top: 1rem;
   }
 }
